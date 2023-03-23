@@ -1,0 +1,171 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  .logo-docplanner{
+    width:268px;
+    height:33px;
+    padding:12px;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  header ul{
+   display: flex;
+  }
+  header ul li {
+    padding:8px;
+  list-style-type: none;
+  }
+  header ul li a {
+  text-decoration:none;
+    color:#747474;
+  }
+  .menu-item-about{
+    color:#00b39b;
+  }
+  .menu-item:hover{
+    color:#00b39b;
+  }
+  
+  .lead__logo{
+    display:block;
+  margin:0 auto
+  }
+  .descr {
+   text-align: center;
+  color:#00b39b;
+  margin:1em 0px;
+   font-size: 2.125rem;
+   font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;  
+  }
+  
+  .intro{ 
+    display:flex;
+    justify-content:space-between;
+   } 
+  .intro p{
+    margin:30px;
+    padding:0px 50px;
+  }
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+  
+  }
+  nav ul li ul {
+
+    flex-direction:column;
+    position:absolute;
+    padding:25;
+    padding-left:0px;
+    display:none;
+    width: 190px;
+    background-color: white;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    display: block;
+  }
+  
+  nav ul li ul li a {
+    display: block;
+    padding: 0px;
+ 
+  }
+  
+  nav ul li ul li:hover a {
+    background-color: #f2f2f2fb;
+  }
+
+.grid {
+  display: flex;
+  justify-content:space-around;
+  
+
+}
+.fade-el1 {
+  background-color: #00ccb1;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+.fade-el2 {
+  background-color: #3d83df;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.fade-el3 {
+  background-color: #1b2734;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+  .services__item h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    margin: .3em 0;
+
+   color:white;
+   font-family: Work Sans,Arial,sans-serif;
+
+   letter-spacing: -.3px;
+ }
+
+ .services__item h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+  font-family: Work Sans,Arial,sans-serif;
+ 
+   letter-spacing: -.3px;
+
+
+   margin-block-start: 0.83em;
+   margin-block-end: 0.83em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   
+}
+
+select {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  cursor: pointer;
+  color: white;
+  
+}
+option {
+  color: black;
+}
